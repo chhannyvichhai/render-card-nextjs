@@ -14,7 +14,7 @@ export async function generateMetadata({params}){
     return{
         title: product.title,
         description: product.description,
-        thumbnail: product.images[0],
+        thumbnail: product.images[1],
         MediaMetadata: new URL('https://istad.co'),
         alternates:{
             canonical: '/',
