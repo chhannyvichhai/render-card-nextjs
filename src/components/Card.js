@@ -5,7 +5,7 @@ const Card = ({ product }) => {
 		<div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
 			<a href="#">
 				<img
-					class="p-8 rounded-t-lg"
+					class="p-8 rounded-t-lg w-300 h-36"
 					src={product.images[0]}
 					alt="product image"
 				/>
