@@ -10,8 +10,8 @@ export const metadata = {
 export default async function Home() {
   return (
     <main className="flex min-h-screen flex-row items-center justify-between p-24">
-       <div className="pt-10 flex flex-row flex-wrap justify-between">
-        <Products/>
+       <div className="flex flex-row flex-wrap justify-between">
+         <Products/>
       </div>
     </main>
   )
